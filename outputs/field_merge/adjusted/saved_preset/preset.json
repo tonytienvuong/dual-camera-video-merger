@@ -1,0 +1,59 @@
+{
+  "preset_version": 1,
+  "name": "Accepted field stitch with lamp and yellow-line adjustments",
+  "sources": [
+    {
+      "path": "F:\\Video\\test\\DJI_20261021203051_0002_D.MP4",
+      "bytes": 17191206958,
+      "sha256_first_and_last_MiB": "645ba8a6c5d19aee1e6c079b2931c9b813f37be09b4629f771f7037e8e891845"
+    },
+    {
+      "path": "F:\\Video\\test\\GOPR0499.MP4",
+      "bytes": 4001176778,
+      "sha256_first_and_last_MiB": "7a7900613d81e01f1b21a12c535ad22cd797eb4115f863ba39fac233f3ed2374"
+    }
+  ],
+  "source_order": [
+    "DJI",
+    "GoPro"
+  ],
+  "offset_rule": "DJI seconds = GoPro seconds - 35.59225",
+  "offset_dji_minus_gopro": -35.59225,
+  "source_decode": {
+    "autorotate": false,
+    "analysis_frame_size": [
+      1600,
+      900
+    ],
+    "video_stream": "0:v:0"
+  },
+  "output": {
+    "canvas": [
+      2218,
+      894
+    ],
+    "fps": "30000/1001",
+    "codec": "H.264",
+    "audio_source": "GoPro"
+  },
+  "fitting_reference": {
+    "gopro_seconds": 90,
+    "dji_seconds": 54.40775
+  },
+  "rendering_reference": {
+    "gopro_start": 85,
+    "duration_seconds": 10
+  },
+  "maps": "frozen_maps.npz",
+  "projection": "spherical plus fixed empirical smooth field correction",
+  "seam": "fixed graph-cut, 51-pixel Gaussian softened mask, sigma 10",
+  "neutral_highlight_protection": {
+    "brightness_start": 110,
+    "brightness_span": 100,
+    "neutrality_start": 0.45,
+    "neutrality_span": 0.35,
+    "curve": "quintic smoothstep"
+  },
+  "status": "Accepted short-test configuration; no full-match drift or geometry validation",
+  "opencv_version": "5.0.0"
+}

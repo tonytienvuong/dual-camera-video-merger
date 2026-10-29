@@ -1,0 +1,18 @@
+{
+  "inner_corrections": [
+    {
+      "region": "inner_white",
+      "maximum_adjustment": 1.9946476221084595
+    },
+    {
+      "region": "inner_yellow",
+      "maximum_adjustment": 1.35300874710083
+    },
+    {
+      "region": "far_yellow",
+      "maximum_adjustment": 5.7355499267578125
+    }
+  ],
+  "foreground_maximum": 54.999999999252836,
+  "method": "Fixed smooth geometric remap, extended across the foreground junctions; real source pixels only"
+}

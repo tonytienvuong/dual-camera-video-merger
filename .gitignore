@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+*.mp4
+*.MP4
+*.mkv
+*.m4a
+*.jpg
+*.png
+work/full_match_parts/
+work/stop_full_match.flag
+outputs/field_merge/high_quality/
+outputs/field_merge/five_minutes/
+outputs/field_merge/full_match/progress.json
+outputs/field_merge/full_match/render_plan.json
+outputs/field_merge/full_match/completion.json
+outputs/field_merge/full_match/final_probe.json
